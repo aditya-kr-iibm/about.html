@@ -1,0 +1,94 @@
+.A{
+    height: 200px;
+    width: 100%;
+    padding: 0;
+    color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+.AB1{
+    color: rgb(141, 14, 14);
+    height: 100px;
+    width: 150px;
+    background-color: palegoldenrod;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.AB2{
+    color: aqua;
+    height: 100px;
+    width: 150px;
+    background-color: violet;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.AB3{
+    color: blueviolet;
+    height: 100px;
+    width: 150px;
+    background-color: gray;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.AB4{
+    color: brown;
+    height: 100px;
+    width: 150px;
+    background-color: lightseagreen;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.C{
+    color: rgb(206, 13, 29);
+    height: 80px;
+    width: 80px;
+    border-radius: 360px;
+    background-color: chocolate;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    font-size: 10px; 
+}
+.D{
+    color: orange;
+    height: 80px;
+    width: 80px;
+    border-radius: 360px;
+    background-color: khaki;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    font-size: bold;
+}
+.E{
+    color: blue;
+    height: 80px;
+    width: 80px;
+    border-radius: 360px;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    font-size: bold;
+}
+.F{
+    background-color: darkred;
+    border-radius: 360px;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    color: gold;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: bold;
+}

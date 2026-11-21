@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+</head>
+<body class="bg-gray-300">
+    <nav class="bg-white flex items-center justify-between py-3 px-6" >
+        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" alt="">
+
+        <div class="rounded-2xl bg-gray-400 w-[900px] h-10 flex items-center px-6">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="ml-2 w-full" type="text" placeholder="Search fotr products Brands and More">
+        </div>
+
+        <button class="hover:bg-blue-600 py-2 px-3 rounded-xl cursor-pointer flex items-center">
+            <i class="fa-regular fa-user"></i>
+            Account
+        </button>
+
+        <div class="flex items-center cursor-pointer">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+        <div class="flex items-center cursor-pointer">
+            <i class="fa-solid fa-store"></i>
+            Become Seller
+        </div>
+    </nav>
+
+</body>
+</html>

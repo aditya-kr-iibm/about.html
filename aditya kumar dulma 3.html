@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <style>
+        input{color: orange;}
+        h1{color: pink;}
+        button{color: red;}
+        body{color: blue;}
+        body{font-family: Arial;text-align: center;margin: 40px;}
+        input{width: 120px;padding: 8px;margin: 6px;}
+        button{padding: 8px 12px;margin: 4px;}
+
+        result{margin-top: 10px;font-weight: bold;}
+    </style>
+</head>
+<body>
+    <h1>Simple Calculator</h1>
+    <inpu
+    <input id="a" type="number" placeholder="Number">
+    <button onclick="calc('+')">
+        add
+    </button>
+    <button onclick="calc('-')">
+        sub
+    </button>
+    <button onclick="calc('*')">
+        mul
+    </button>
+    <button onclick="calc('/')">
+        div
+    </button>
+   <input id="addBtn" type="number" placeholder="result">
+    <input type="a" name="show" id="result">
+
+    <div id="result">Result: </div>
+
+    <script>
+        function calc(op){
+            const a = parseFloat(document.getElementById('a').value);
+            const b = parseFloat(document.getElementById('b').value);
+            if (op == '+') r = a + b;
+            else if (op == '-') r = a - b;
+            else if (op == '*') r = a * b;
+            else if (op == '/') r = a / b; 
+            {if (b== 0) { document.getElementById('result').textContent = 'Connot divide by zero'; return; } r = a / b;
+            }
+
+            document.getElementById('result').textContent = 'Result: ' + r;
+            Max: The city centre.
+        }
+    </script>
+</body>
+</html>

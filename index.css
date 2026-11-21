@@ -1,0 +1,22 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    background-color: greenyellow;
+    color: red;
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: large;
+}
+.hero{
+    display: flex;
+    justify-content: right;
+    height: 100px;
+}
